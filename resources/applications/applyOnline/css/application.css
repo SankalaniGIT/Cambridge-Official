@@ -1,0 +1,98 @@
+body {
+    background: #f5f5f5;
+    background-size: cover;
+}
+
+header .navbar-inverse .navbar-nav > li > a {
+    color: #286090  !important;
+}
+
+.navbar-brand span {
+    color: maroon !important;
+}
+
+div#application {
+    margin-top: 100px !important;
+}
+
+div#application {
+    width: 100%;
+}
+
+div#application .col-md-4, div#application .col-md-6 {
+    padding-right: 15px !important;
+}
+
+fieldset legend {
+    float: left;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+}
+
+label {
+    float: left;
+    font-size: 15px;
+    margin-top: 8px;
+    color: #333;
+}
+
+.form-control {
+    height: 45px !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+select.ui-datepicker-month, select.ui-datepicker-year {
+    color: grey !important;
+}
+
+.ui-widget-header {
+    background: rgb(57, 203, 190) !important;
+}
+
+.submit {
+    margin-top: 10px;
+    float: left;
+}
+
+.submit button {
+    background: transparent;
+    width: 200px;
+    height: 40px;
+    border: 2px solid rgb(57, 203, 190);
+    border-radius: 5px !important;
+    color: rgb(57, 203, 190);
+
+}
+
+.statusAlert {
+    position: relative;
+    float: right;
+    top: 10px;
+    text-align: left;
+}
+
+.statusAlert #successAlert {
+    background-color: darkgreen;
+}
+
+.statusAlert #failureAlert {
+    background-color: tomato;
+}
+
+.statusAlert #successAlert, .statusAlert #failureAlert {
+    height: 40px;
+    width: 500px;
+    border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    padding-top: 8px !important;
+    padding-left: 4px !important;
+    color: white;
+    font-weight: bolder;
+    margin-top: -20px;
+
+}
+

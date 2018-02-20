@@ -1,0 +1,177 @@
+.titleTabs{
+  background: blue; 
+  background: -webkit-linear-gradient(left, blue , transparent);
+  background: -o-linear-gradient(right, blue, transparent);
+  background: -moz-linear-gradient(right, blue, transparent);
+  background: linear-gradient(to right, blue , transparent);
+  color: white;
+  height: 45px;
+  vertical-align: middle;
+  padding-top: 7.5px;
+}
+
+
+.services-breadcrumb {
+    padding: 1em 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+.services-breadcrumb ul li a {
+       color: #207fe2;
+    text-decoration: none;
+}
+.services-breadcrumb ul li {
+    display: inline-block;
+      color: #222;
+}
+.services-breadcrumb ul li i {
+    padding: 0 1.5em;
+}
+
+
+[class ^= 'w3layouts-banner-top']{
+    margin-top: 50px;
+    height: 400px !important;
+    width: 100vw;
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;      
+    -moz-background-size: cover;
+    min-height:400px;
+}
+
+.agileits-banner-info h3 {
+    color: #fff;
+    font-size: 6em;
+    margin: 0.1em 0 0.2em 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    -moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);
+    
+}
+.agileits-banner-info h3 span{
+        background: #2529d8;
+    padding: 0 15px;
+}
+.agileits-banner-info {
+    text-align: left;
+    padding:16em 0 0em;
+}
+.agileits-banner-info p {
+    color: #e2dfdf;
+    font-size: 1em;
+    line-height: 2.2em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 49%;
+    text-align: left;
+}
+.agileits_w3layouts_more{
+    position:relative;
+}
+.agileits_w3layouts_more a{
+        font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+.agileits-banner-info span {
+    background:#de0f17;
+    padding: 0.5em 2em;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.nav-pills>li>a{
+	border-radius: 0 !important;
+}
+
+
+
+/*-- Tab-Images --*/
+.gallery-top {
+    padding: 0;
+}
+.gallery-grids figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.gallery-grids figure.effect-bubba:hover {
+    background-color: #000;
+}
+.gallery-grids figure img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.gallery-bottom {
+   margin: 2.5em 0;
+}
+.gallery-grids figure figcaption {
+    padding: 2em;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.gallery-grids figure figcaption::before, .gallery-grids figure figcaption::after {
+   pointer-events: none;
+}
+.gallery-grids figure figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+figure.effect-apollo {
+    background: #000;
+}
+figure.effect-apollo img {
+    opacity: 0.95;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+}
+figure.effect-apollo figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.71);
+  content: '';
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+  transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+figure.effect-apollo:hover img {
+   opacity: 0.6;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+figure.effect-apollo:hover figcaption::before {
+   -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+   transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+

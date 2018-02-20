@@ -1,0 +1,16 @@
+.heading {
+  background-color: whitesmoke !important;
+  color: black !important;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.loginPanelbody {
+  background-color: snow !important;
+}
+
+.loginPanel {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc291cmNlcy9hc3NldHMvc2Fzcy9sb2dpbi9sb2dpbi5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi5oZWFkaW5ne1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2UgIWltcG9ydGFudDtcclxuICBjb2xvcjogYmxhY2sgIWltcG9ydGFudDtcclxuICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbiAgZm9udC13ZWlnaHQ6Ym9sZGVyO1xyXG59XHJcbi5sb2dpblBhbmVsYm9keXtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBzbm93ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5sb2dpblBhbmVse1xyXG4gIG9wYWNpdHk6IDAuMTtcclxuXHJcbn1cclxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEFBQUEsUUFBUSxDQUFBO0VBQ04sZ0JBQWdCLEVBQUUscUJBQXFCO0VBQ3ZDLEtBQUssRUFBRSxnQkFBZ0I7RUFDdkIsVUFBVSxFQUFFLE1BQU07RUFDbEIsV0FBVyxFQUFDLE1BQU07Q0FDbkI7O0FBQ0QsQUFBQSxlQUFlLENBQUE7RUFDYixnQkFBZ0IsRUFBRSxlQUFlO0NBQ2xDOztBQUVELEFBQUEsV0FBVyxDQUFBO0VBQ1QsT0FBTyxFQUFFLEdBQUc7Q0FFYiJ9 */

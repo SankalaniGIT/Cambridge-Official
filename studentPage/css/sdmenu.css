@@ -1,0 +1,56 @@
+div.sdmenu {
+	width: 190px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-bottom: 5px;	
+	
+	color: #FFF;
+	text-transform: capitalize;
+	
+}
+div.sdmenu div {
+	background-color: #606060;
+	overflow: hidden;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #E0E0E0;
+}
+div.sdmenu div:first-child {
+	background-color: #606060;
+}
+div.sdmenu div.collapsed {
+	height: 25px;
+	border-bottom: 1px solid #606060;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 20px;
+	font-weight: normal;
+	color: #FFF;
+	background: url(expanded.gif) no-repeat 5px center;
+	cursor: pointer;
+	border-bottom: 1px solid #606060;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(collapsed.gif);	
+}
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #e7e7e7;
+	display: block;	
+	border-bottom: 1px solid #c1c1c1;
+	border-left: 1px solid #CCC;	
+	color: #333;
+	text-decoration:none;
+}
+div.sdmenu div a.current {
+	background : #939393 url(linkarrow.gif) no-repeat right center;
+	border-bottom: 1px solid #c1c1c1;
+	border-left: 1px solid #CCC;
+	color: #FFF;
+}
+div.sdmenu div a:hover {
+	background : #ababab url(linkarrow.gif) no-repeat right center;
+	color: #FFF;
+	text-decoration: none;
+}

@@ -1,0 +1,52 @@
+
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.required, textarea.required {
+	/*border: 1px solid #00A8E6;*/
+}
+.form_tab .validation-failed, textarea.validation-failed {
+	border: 1px inset #FF3300;
+	color : #333;
+	
+}
+
+.validation-passed, textarea.validation-passed {
+	border: 1px inset #00CC00;
+	color : #666;
+}
+
+.validation-advice {
+	margin: 0px 0;
+	padding:3px;
+	/*background-color: #FF3300;*/
+	color : #F30;
+	width:243px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+
+.form-row {
+	clear: both;
+	padding: 0.5em;
+}
+
+.field-label {
+
+}
+
+.field-widget {
+
+}

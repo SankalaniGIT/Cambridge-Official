@@ -1,0 +1,27 @@
+@media only screen  and(min-width: 796px){
+  #tabs{
+    width: 180vh !important;
+    float: left;
+    background-color: snow;
+    margin-left: -140px !important;
+
+  }
+  #errorBlock{
+    margin-top: 55px;
+  }
+}
+
+@media only screen  and(max-width: 796px){
+  #errorBlock{
+    margin-top: 55px;
+  }
+  #tabs{
+    width: 100% !important;
+    background-color: snow;
+    float: left;
+    margin-left: 0px !important;
+
+  }
+}
+
+

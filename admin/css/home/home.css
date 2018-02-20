@@ -1,0 +1,13 @@
+.linkBlock {
+  height: 150px !important;
+  display: inline !important;
+}
+
+.linkBlock strong {
+  margin-top: 50px;
+}
+
+.notification{
+  background-color: darkred;
+  color: whitesmoke;
+}

@@ -1,0 +1,215 @@
+/*---------------------------------
+    COMMON CSS FOR STYLING
+---------------------------------*/
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.sync{
+    animation-name: rotate; 
+    animation-duration: 0.5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+html body {
+    font-family: 'Muli', Sans-Serif !important;
+}
+
+.ite {
+    background-color: #ccd0d2 !important;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 5px;
+}
+
+header .navbar-inverse .navbar-nav > li > a {
+    color: #8c8c8c !important;
+}
+
+#newsFeed {
+    margin: 100px 50px !important;
+}
+
+.newsItem hr {
+    margin-top: 0;
+}
+
+.newsBlock {
+    background-color: white;
+}
+
+.newsFooter {
+    top: 30px !important;
+}
+
+.newsFooter p {
+    float: left !important;
+}
+
+
+.more {
+    padding-right: 5px !important;
+}
+
+.text-info-title {
+    color: #4f5a57 !important;
+}
+
+.text-info-subtitle {
+    color: #3c5a5a !important;
+}
+
+/*---------------------------------------------
+                CATEGORY SEARCH
+----------------------------------------------*/
+.categoryBlock {
+    height: 375px;
+    background: seashell;
+}
+
+.categoryBlock label {
+    font-size: 20px !important;
+}
+
+div.leftNewsBlock {
+    height: 375px;
+    overflow-y: scroll;
+}
+
+ul {
+    position: relative;
+    z-index: 1000;
+}
+
+.list-group-item {
+    position: relative;
+    z-index: 1000 !important;
+    border-radius: 0 !important;
+    text-align: left;
+    padding: 10px 10px !important;
+}
+
+div.leftNewsBlock::-webkit-scrollbar-thumb {
+    background: grey;
+}
+
+div.searchResultPad {
+    position: absolute;
+    width: 350px;
+    z-index: 1000;
+}
+
+div.searchResultPad ul li:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+table.newsTableFooter tr td {
+    font-size: 16px !important;
+}
+
+table.newsTableFooter {
+    width: 100%;
+}
+
+
+div.dateNtime{
+    padding: 10px 17.5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(244, 23, 77);
+    color: white;
+    margin-right: 5px
+}
+
+div.panel-footer table tr td{
+    text-align: left;
+}
+/*-------------------------------------------
+                Comment table
+--------------------------------------------*/
+
+div.comment-section {
+    background: rgb(241,241,241);
+}
+div.comment-section h3{
+    margin: 10px;
+    color: black;
+    text-align: left;
+}
+div.comment-section input.form-control{
+    width: 90%;
+    height: 40px !important
+}
+
+div.comment-section h3 > span{
+    font-weight: bolder;
+}
+
+div.comment-section input[type='text'], div.comment-section input[type='email']{
+    border-radius: 4px !important;
+    padding: 10px 10px !important;
+    background-color: rgb(235,235,235);
+}
+
+div.comment-section textarea.form-control{
+    width: 95% !important;
+    background-color: rgb(235,235,235);
+    border-radius: 5px !important;
+    padding: 10px 10px !important;
+    resize: none;
+}
+
+div.comment-section button{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(244, 23, 77);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 10px;
+    color: white
+}
+
+
+div.comment-view{
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    transition: all 2s linear 1s;
+    display: block;
+}
+div.comment-view.opayed{
+    display: none !important;
+}
+
+div.comment-view:after{
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 10px 15px;
+   border-color: white transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   top: -35px;
+   left: 40%;
+}
+
+div.comment-view{
+    text-align: left;
+}
+div.comment-view table tbody{
+    display: block;
+    max-height: 250px !important;
+    overflow-y: scroll;
+}
+
+div.comment-view table tbody ul{
+    padding-left: 10px
+}

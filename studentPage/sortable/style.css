@@ -1,0 +1,145 @@
+table.yui 
+{
+	font-family:arial;   
+    border-collapse:collapse;	
+    border: solid 1px #7f7f7f;
+    font-size:small;
+}
+
+table.yui td {	
+	padding: 4px;
+	border-right: solid 1px #7f7f7f;
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+table.yui .even {
+	background-color: #fff;
+}
+table.yui .odd {
+	background-color: #F5F5F5;
+}
+table.yui th
+{
+    background: url('sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 4px;
+	height: auto;
+	cursor:pointer;
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+table.yui th a
+{
+	text-decoration: none;
+	text-align: center;    	
+  /*  padding-right: 20px;*/
+    font-weight:bold;
+   /* white-space:nowrap;*/
+    background: url('bg.gif') no-repeat right 50%;
+    font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+table.yui thead .headerSortUp , table.yui thead .headerSortDown 
+{
+    background: url('sprite.png') repeat-x 0px -100px;
+}
+
+table.yui .headerSortUp a 
+{	
+    /*background: url('asc.gif') no-repeat 0px 0px*/
+}
+table.yui .headerSortDown a 
+{    
+    /*background: url('desc.gif') no-repeat 0px 0px;*/
+}
+
+table.yui tfoot td
+{    
+    border: 1px solid #7f7f7f;
+    background-color:#E8E8E8;
+}
+
+table.yui thead td
+{
+    vertical-align:middle;
+    background-color:#E8E8E8;
+    border:none;
+}
+
+table.yui thead .tableHeader
+{
+    font-size:medium;
+    font-weight:bold;
+}
+
+table.yui thead .filter
+{
+    text-align:right;
+}
+
+table.yui tfoot
+{
+    background-color:#E8E8E8;
+    text-align:center;
+       
+}
+
+table.yui .tablesorterPager {
+	/*padding: 10px 0 10px 0;	*/
+	padding: 5px 0 5px 0;		
+}
+table.yui .tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+table.yui .tablesorterPager input.prev {
+	width: auto;
+	/*margin-right: 10px;*/
+	margin-right: 4px;
+}
+table.yui .tablesorterPager input.next {
+	width: auto;
+	/*margin-left: 10px;*/
+	margin-left: 4px;
+}
+table.yui .pagedisplay 	
+{    
+	width: 30px;
+	border: 0px;
+	background-color: #E8E8E8;
+	text-align:center;
+    vertical-align:top;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.headingStyle{	
+	padding:4px 2px 4px 2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color: #333333;
+}
+
+.searchTextbox{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: normal;
+	color: #000000;
+}
+.pagesize{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color: #000000;
+}
+

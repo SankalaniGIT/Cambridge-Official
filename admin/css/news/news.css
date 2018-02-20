@@ -1,0 +1,93 @@
+section#deleteNews table {
+    width: 100%;
+}
+
+section#deleteNews table tr td:first-child {
+    width: 50px !important;
+}
+
+section#deleteNews table tr td:nth-child(2) {
+    width: 75px !important;
+}
+
+section#deleteNews table tr td:nth-child(3) {
+    width: 375px !important;
+}
+
+section#deleteNews table tr td:last-child {
+    width: 100px !important;
+}
+
+ol.list-inline.list-unStyled.newsPager {
+    margin-top: 10px;
+    text-align: justify-all;
+}
+
+td ol.newsPager {
+    background-color: darkslategrey;
+}
+
+.newsPager li a {
+    text-decoration: none !important;
+}
+
+.newsPager li a:hover, .newsPager li a:visited {
+    text-decoration: none !important;
+}
+
+.newsPager li {
+    width: 30px;
+    height: 30px;
+    border: 2px solid azure;
+    color: black;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.newsPager li.active {
+    color: white !important;
+    background-color: black;
+}
+
+
+.roundButtonContainer {
+    margin-left: 10px;
+}
+
+.roundButton {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    box-shadow: 0 0 3px 3px white;
+    bottom: 20px;
+}
+
+.roundButton p {
+    font-size: 50px;
+    position: relative;
+    top: -25px;
+    right: 3px;
+    text-shadow: 0 0 1px 1px black;
+}
+
+@media only screen and (min-width: 796px) {
+    #tabs {
+        width: 180vh !important;
+        float: left;
+        background-color: snow;
+        margin-left: -140px !important;
+    }
+
+}
+
+@media only screen and (max-width: 796px) {
+
+    #tabs {
+        width: 100% !important;
+        float: left;
+        background-color: snow;
+        margin-left: 0px !important;
+    }
+}

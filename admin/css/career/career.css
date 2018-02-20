@@ -1,0 +1,80 @@
+section#deleteCareer table tr td:first-child {
+    width: 50px !important;
+}
+
+section#deleteCareer table tr td:nth-child(2) {
+    width: 75px !important;
+}
+
+section#deleteCareer table tr td:nth-child(3) {
+    width: 375px !important;
+}
+
+section#deleteCareer table tr td:last-child {
+    width: 100px !important;
+}
+
+ol.list-inline.list-unStyled.careerPager {
+    margin-top: 10px;
+    text-align: justify-all;
+}
+
+td ol.careerPager {
+    background-color: darkslategrey;
+}
+
+.careerPager li a {
+    text-decoration: none !important;
+}
+
+.careerPager li a:hover, .galleryPager li a:visited {
+    text-decoration: none !important;
+}
+
+.careerPager li {
+    width: 30px;
+    height: 30px;
+    border: 2px solid azure;
+    color: black;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.careerPager li.active {
+    color: white !important;
+    background-color: black;
+}
+
+@media only screen and (min-width: 796px) {
+    #tabs {
+        width: 180vh !important;
+        float: left;
+        background-color: snow;
+        margin-left: -140px !important;
+    }
+
+}
+
+@media only screen and (max-width: 796px) {
+
+    #tabs {
+        width: 100% !important;
+        float: left;
+        background-color: snow;
+        margin-left: 0 !important;
+    }
+
+    .qualificationSet .row .col-md-1 a {
+        top: 0 !important;
+    }
+
+    .qualificationsToBeUpdated .row .col-md-1 a {
+        top: 0 !important;
+    }
+
+    .qualificationsToBeUpdated #rowUpdate1 .col-md-1 {
+        margin-left: -200px !important;
+    }
+
+}

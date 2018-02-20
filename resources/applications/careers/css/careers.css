@@ -1,0 +1,234 @@
+body {
+    background-size: cover;
+    background-color: rgba(48, 48, 48, 0.89);
+    font-family: 'Exo 2', Sans-Serif !important;
+}
+
+header .navbar-inverse .navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-brand span {
+    color: white !important;
+}
+
+section.careerScroll .careerQuote {
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0 0 1px 3px black;
+    padding: 10px 15px !important;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*----------Left Bar Css-----------------*/
+.premiseDetail {
+    float: left;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 1px 3px black;
+    padding: 15px 15px !important;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 385px;
+}
+
+.premiseDetail .headDetail {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom right, blue, transparent);
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.premiseDetail .bodyDetail {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.premiseDetail .bodyDetail ul li:nth-child(odd) {
+    background-color: #3a4346;
+    padding: 15px 30px;
+}
+
+.premiseDetail .bodyDetail ul li:nth-child(even) {
+    background-color: #2e3436;
+    padding: 15px 30px;
+}
+
+.vacancyFlow {
+    background-color: white;
+    float: right;
+    text-align: left;
+    box-shadow: 0 0 1px 3px black;
+    padding: 10px 15px !important;
+    border-radius: 2px;
+    width: 95%;
+    margin-bottom: 10px;
+    min-height: 775px;
+}
+
+.vacancyFlow .currentVacancies {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom right, blue, transparent);
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.eachVacancy {
+    width: 100%;
+    background-color: azure;
+    float: right;
+    text-align: left;
+    box-shadow: 0 0 1px 3px black;
+    padding: 10px 15px !important;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.eachVacancy button {
+    text-align: center;
+    text-transform: uppercase;
+    padding: auto auto;
+    border-radius: 4px;
+    border: 2px solid rgb(57, 203, 190);
+    background: transparent;
+    color: rgb(57, 203, 190);
+}
+
+.eachVacancy span {
+    position: relative;
+    color: #2e3436;
+}
+
+.eachVacancy table tr td:nth-child(2) {
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+ul.careerPages {
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+ul.careerPages li {
+    cursor: pointer;
+    border: 2px solid rgb(57, 203, 190);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 4px 10px;
+    color: rgb(27, 180, 160);
+    font-size: 18px;
+    margin-left: 2px;
+
+}
+
+ul.careerPages li.currentPage {
+    background-color: rgb(27, 180, 160);
+    color: white;
+}
+
+#vacant .modal-title {
+    float: left;
+    font-size: 18px;
+    color: black;
+}
+
+#vacant .banner img {
+    width: 97%;
+}
+
+#vacant .banner div {
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
+}
+
+#vacant h3 {
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(to bottom right, blue, transparent);
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+#vacant .qualification {
+    min-height: 275px;
+    background-color: lightgray;
+    overflow-y: scroll;
+}
+
+#vacant .qualification li {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-bottom: 1px solid mintcream;
+}
+
+#vacant .datePosted {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+#vacant .priority {
+    text-align: left;
+    font-size: 16px;
+}
+
+#vacant .expiresIn {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+.banner .textbox {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(0);
+    padding: 0 10px;
+    transform: scale(0);
+    padding: 0 10px;
+}
+
+.banner:hover .textbox {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+#vacant .rightBlock {
+    padding-left: 10px;
+}
+
+blockquote {
+    text-align: left;
+    border-color: #134a79 !important;
+}
+
+/*--------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    .vacancyFlow{
+        width: 100% !important;
+    }
+
+    .premiseDetail {
+        height: 100% !important;
+    }
+
+}

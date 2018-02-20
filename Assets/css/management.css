@@ -1,0 +1,37 @@
+header .navbar-inverse .navbar-nav > li > a {
+    color: #8c8c8c !important;
+}
+
+#profile {
+    margin: 70px 50px !important;
+}
+
+#profile .thumbnail {
+    width: 250px;
+}
+
+.sliderBlock {
+    background-color: white;
+}
+
+
+.personDetail {
+    padding: 20px 20px;
+    font-weight: bolder;
+    font-size: 18px;
+    border-left: 5px solid rgb(185, 1, 1)
+}
+
+/*---------------------------------------------
+                MEDIA QUERIES
+----------------------------------------------*/
+
+@media only screen and (max-width: 796px) {
+    #profile .thumbnail {
+        width: 100%;
+    }
+
+    #profile{
+        margin: 0 0 !important;
+    }
+}

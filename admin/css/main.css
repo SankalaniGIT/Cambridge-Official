@@ -1,0 +1,70 @@
+body {
+    overflow-x: hidden;
+}
+
+table.updateAligner {
+    width: 100% !important;
+}
+
+table.updateAligner tr td:first-child {
+    float: left;
+}
+
+table.updateAligner tr td:nth-child(2) {
+    float: left;
+    padding-left: 10px !important;
+}
+
+table.updateAligner tr td:nth-child(3) {
+    text-align: center;
+}
+
+table.updateAligner tr td:last-child input[type='text'] {
+    width: 60vw;
+}
+
+form label {
+    float: left !important;
+}
+
+form input[type = 'file'] {
+    padding-left: 10px !important;
+}
+
+form input[type = 'radio'] {
+
+    width: 25px !important;
+    height: 25px !important;
+}
+
+form input[type = 'checkbox'] {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#errorBlock {
+    margin-top: 48px;
+}
+
+hr {
+    background-color: #0d3349;
+    height: 1px;
+    box-shadow: 0 0 1px 1px black;
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* for vertical scrollbars */
+    height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+}

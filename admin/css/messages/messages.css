@@ -1,0 +1,96 @@
+@media only screen and (min-width: 796px) {
+  #tabs {
+    width: 180vh !important;
+    float: left;
+    background-color: snow;
+    margin-left: -140px !important;
+  }
+
+  #msgViewBlock{
+    height: 450px;
+  }
+
+  #msgViewBlock .from{
+    background-color: whitesmoke;
+  }
+  #msgViewBlock footer{
+    bottom: 20px !important;
+    position: absolute;
+  }
+
+
+
+
+  #msgListBlock{
+    height: 450px;
+  }
+
+
+  #messages tr td:not(:first-child){
+    text-align: center;
+  }
+  #messages  tr td:nth-child(odd){
+    background-color: snow;
+  }
+  #messages  tr td:nth-child(even){
+    background-color: antiquewhite;
+  }
+
+
+  .noView{
+    background-image: url('../../images/messages/backgrounds/noView.jpg');
+    background-size: cover;
+    height: 90% !important;
+  }
+
+}
+
+@media only screen and (max-width: 796px) {
+
+  #tabs {
+    width: 100% !important;
+    background-color: snow;
+    float: left;
+    margin-left: 0px !important;
+  }
+
+  #msgViewBlock{
+    height: 450px;
+  }
+
+
+  #msgViewBlock .from{
+    background-color: whitesmoke;
+  }
+  #msgViewBlock footer{
+    bottom: 20px !important;
+    position: absolute;
+  }
+
+
+
+
+  #msgListBlock{
+    height: 450px;
+  }
+
+
+  #messages tr td:not(:first-child){
+    text-align: center;
+  }
+  #messages  tr td:nth-child(odd){
+    background-color: snow;
+  }
+  #messages  tr td:nth-child(even){
+    background-color: antiquewhite;
+  }
+
+
+  .noView{
+    background-image: url('../../images/messages/backgrounds/noView.jpg');
+    background-size: cover;
+    height: 90% !important;
+  }
+
+}
+
